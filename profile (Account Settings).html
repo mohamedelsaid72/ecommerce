@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Ecommerce | Account Settings</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header" class="shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+                <div class="rec1"></div>
+                <div class="rec2"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ladies.html">Ladies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <div id="search-box" class="search-box w-100 d-flex align-items-center">
+                        <div class="search-area w-100 d-flex align-items-center border-right p-2">
+                            <i class="fas fa-search"></i>
+                            <input type="search" placeholder="What are you looking for ?">
+                        </div>
+                        <div class="category-area w-50 d-flex justify-content-between align-items-center p-2">
+                            <label for="" class="mb-0">Category</label>
+                            <div class="form-group mb-0">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>All</option>
+                                    <option>Men</option>
+                                    <option>Women</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+                <ul class="right-items d-lg-flex d-none">
+                    <li class="item"><i id="search" onclick="changeto()" class="fas fa-search"></i></li>
+                    <li class="item"><i class="fas fa-shopping-cart"></i></li>
+                    <li class="item">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img width="40px" height="40px"
+                                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                                    alt="">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right pr-4 pl-4"
+                                aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item border-bottom p-3" href="./profile.html">Account Settings</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">Change Password</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Wishlist</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Orders</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Addresses</a>
+                                <a class="dropdown-item p-3" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end of header -->
+
+    <section class="profile-content">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="content shadow-sm">
+                    <a href="" class="border-bottom active">Account Settings</a>
+                    <a href="./profile (Order History).html" class="border-bottom">Orders History</a>
+                    <a href="" class="border-bottom">Wish Lists</a>
+                    <a href="" class="border-bottom">Addresses</a>
+                    <a href="">Payments</a>
+                </div>
+            </div>
+            <div id="AcountSettings" class="col-md-8 col-sm-12">
+                <div class="content">
+                    <p class="border-bottom">Account Settings</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img width="100%" height="200px"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" id="inputEmail4"
+                                            placeholder="First Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" id="inputPassword4"
+                                            placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="inputAddress2" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="date" class="form-control" id="inputAddress2" placeholder="Birthdate">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Country</option>
+                                        <option>ARE</option>
+                                        <option>UAE</option>
+                                        <option>ENG</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check form-check-inline mr-4">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline mr-4">
+                                        <input checked class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p>Change Password</p>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <form>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="inputAddress"
+                                        placeholder="Old Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="inputAddress2"
+                                        placeholder="New Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="inputAddress2"
+                                        placeholder="Confirm New Password">
+                                </div>
+                                <div class="form-group text-right">
+                                    <button type="submit" class="border-0 rounded btn-success">Save</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p>Notification Settings</p>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="toggle d-flex align-items-center">
+                                <div class="switch pr-4"><input checked type="checkbox"></div>
+                                <div class="text border-left pl-4">
+                                    <p><b>Newsletter</b></p>
+                                    <p>Send me weekly newsletter.</p>
+                                </div>
+                            </div>
+                            <div class="toggle d-flex align-items-center">
+                                <div class="switch pr-4"><input type="checkbox"></div>
+                                <div class="text border-left pl-4">
+                                    <p><b>New Arrivals</b></p>
+                                    <p>Let me know when new item arrives.</p>
+                                </div>
+                            </div>
+                            <div class="toggle d-flex align-items-center">
+                                <div class="switch pr-4"><input checked type="checkbox"></div>
+                                <div class="text border-left pl-4">
+                                    <p><b>Shipping Status</b></p>
+                                    <p>Send me email about my shipments status.</p>
+                                </div>
+                            </div>
+                            <div class="toggle d-flex align-items-center">
+                                <div class="switch pr-4"><input type="checkbox"></div>
+                                <div class="text border-left pl-4">
+                                    <p><b>Phone Notification</b></p>
+                                    <p>Keep me update by text message.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="row border-bottom">
+            <div class="col-lg-4">
+                <h5>GET UPDATES</h5>
+                <form class="form-group shadow d-flex justify-content-between">
+                    <input required type="email" class="form-control border-top-0 border-right-0 border-left-0"
+                        id="formGroupExampleInput" placeholder="Your Email">
+                    <button type="submit" class="btn border-0"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <h5 class="download-h4 mb-2">DOWNLOAD OUR APPLICATION</h5>
+                <div class="download-app">
+                    <i class="fab fa-apple"></i>
+                    <i class="fab fa-google-play"></i>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>DEPARTMENT</h5>
+                <p><a href="">New Arrivals</a></p>
+                <p><a href="">Mens</a></p>
+                <p><a href="">Ladies</a></p>
+                <p><a href="">Kidswear</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>INFO</h5>
+                <p><a href="">Career</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="">Sustainability</a></p>
+                <p><a href="">Press</a></p>
+                <p><a href="">Investor Relation</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>GOVERNANCE</h5>
+                <p><a href="">Help</a></p>
+                <p><a href="">Customer Services</a></p>
+                <p><a href="">Store Locator</a></p>
+                <p><a href="">Legal & Privacy</a></p>
+                <p><a href="">FAQ</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>CONTACT US</h5>
+                <p><i class="fas fa-envelope"></i></p>
+                <p>email@company.com</p>
+                <p><i class="fas fa-phone"></i></p>
+                <p>+971 523 649 474</p>
+                <p><i class="fas fa-map-marker-alt"></i></p>
+                <p>658 Padberg Views Dubai, UAE</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <p>Copyright <strong>AVIN.com</strong> 2018</p>
+            </div>
+            <div class="col-md-4 col-12 text-right">
+                <a href="#header"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        var search = document.getElementById('search');
+        var search_box = document.getElementById('search-box');
+
+        function changeto() {
+            search.classList.toggle('fa-times');
+            search_box.classList.toggle('visible');
+        }
+    </script>
+</body>
+
+</html>

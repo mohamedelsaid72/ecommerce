@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Ecommerce | Home</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header" class="shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+                <div class="rec1"></div>
+                <div class="rec2"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ladies.html">Ladies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <div id="search-box" class="search-box w-100 d-flex align-items-center">
+                        <div class="search-area w-100 d-flex align-items-center border-right p-2">
+                            <i class="fas fa-search"></i>
+                            <input type="search" placeholder="What are you looking for ?">
+                        </div>
+                        <div class="category-area w-50 d-flex justify-content-between align-items-center p-2">
+                            <label for="" class="mb-0">Category</label>
+                            <div class="form-group mb-0">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>All</option>
+                                  <option>Men</option>
+                                  <option>Women</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+                <ul class="right-items d-lg-flex d-none">
+                    <li class="item"><i id="search" onclick="changeto()" class="fas fa-search"></i></li>
+                    <li class="item"><i class="fas fa-shopping-cart"></i></li>
+                    <li class="item">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img width="40px" height="40px"
+                                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                                    alt="">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right pr-4 pl-4" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item border-bottom p-3" href="./profile.html">Account Settings</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">Change Password</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Wishlist</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Orders</a>
+                                <a class="dropdown-item border-bottom p-3" href="#">My Addresses</a>
+                                <a class="dropdown-item p-3" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="row">
+            <div class="col-lg-9 col-md-9">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3"
+                        style="background-image: url(./images/photo-1564891476305-be189a8b5678.jfif);">
+                    </div>
+                    <div class="col-lg-9 col-md-9 shadow-sm">
+                        <div class="content">
+                            <h1>Catch the Summer</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="content-img" style="background-image: url(./images/bag-removebg-preview.png);"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- items section -->
+    <section class="items">
+        <div class="row first-row">
+            <div class="col-lg-3 col-md-3">
+                <div class="content shadow-sm">
+                    <p class="title">Sports</p>
+                    <p class="small">In hac</p>
+                    <h5>HABITASSE</h5>
+                    <div class="items-box-img" style="background-image: url(./images/shoes.png);">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="content shadow-sm">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <p class="title">Electronics</p>
+                            <p class="small">Cras</p>
+                            <h5>CURABITU</h5>
+                        </div>
+                        <div class="items-box-img col-md-6 col-lg-6" style="background-image: url(./images/tv.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="content shadow-sm">
+                    <p class="title">Laptops</p>
+                    <p class="small">Curabi</p>
+                    <h5>IN HAC</h5>
+                    <div class="items-box-img" style="background-image: url(./images/laptop.png);">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row second-row">
+            <div class="col-lg-6 col-md-6">
+                <div class="content shadow-sm">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <p class="title">Sound System</p>
+                            <p class="small">Fusce</p>
+                            <h5>NAM PORT</h5>
+                        </div>
+                        <div class="items-box-img col-md-6 col-lg-6" style="background-image: url(./images/tv.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="content shadow-sm">
+                    <p class="title">Gamming</p>
+                    <p class="small">Fusce</p>
+                    <h5>LOREM IP</h5>
+                    <div class="items-box-img"
+                        style="background-image: url(./images/kisspng-playstation-4-playstation-3-gamecube-controller-ga-ps4-controller-army-soldier-console-png-5ab1bed83538e0.002038521521598168218.png);">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="content shadow-sm">
+                    <p class="title">Smart Phones</p>
+                    <p class="small">Fusce</p>
+                    <h5>FUSCE VE</h5>
+                    <div class="items-box-img" style="background-image: url(./images/Tablet-PNG-Images.png);">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row third-row">
+            <div class="col-lg-6 col-md-6 first-column">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div style="height: auto;" class="content shadow-sm">
+                            <div class="row">
+                                <div class="items-box-img col-md-6 col-lg-6"
+                                    style="background-image: url(./images/dress.png);">
+                                </div>
+                                <div class="col-md-6 col-lg-6 dress-img-text">
+                                    <div>
+                                        <h3>Mens Basics</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                                        <button class="btn">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div style="height: auto;" class="content shadow-sm">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 dress-img-text">
+                                    <div>
+                                        <h3>Girls Collection</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                                        <button class="btn">Shop Now</button>
+                                    </div>
+                                </div>
+                                <div class="items-box-img col-md-6 col-lg-6"
+                                    style="background-image: url(./images/redTshirt.png);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 second-column">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="content shadow-sm">
+                            <div class="content-text">
+                                <h2>50% OFF</h2>
+                                <p style="margin-bottom: 10px;">Deal of the Day</p>
+                                <button class="btn">View Details</button>
+                                <div class="items-box-img"
+                                    style="background-image: url(./images/winter-boots-2788671_1280.png);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of items section -->
+
+    <!-- slider section -->
+    <section class="slider">
+        <div class="slider-title">
+            <p>New Arrivals</p>
+            <div class="controlers">
+                <span id="control"><i class="fas fa-chevron-left"></i></span>
+                <span id="control"><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div style="background-image: url(./images/redTshirt.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/shoes.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/Tablet-PNG-Images.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/tv.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/winter-boots-2788671_1280.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/redTshirt.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div  class="card">
+                <div style="background-image: url(./images/bag-removebg-preview.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/dress.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div  class="card">
+                <div style="background-image: url(./images/kisspng-playstation-4-playstation-3-gamecube-controller-ga-ps4-controller-army-soldier-console-png-5ab1bed83538e0.002038521521598168218.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/laptop.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/shoes.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-image: url(./images/tv.png);" class="card-img"></div>
+                <div class="card-text">
+                    <p class="small">lorem ipsum</p>
+                    <p class="price">$45 <strike>$60</strike></p>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <div class="stars">
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star solid"></i>
+                            <i class="fas fa-star empty"></i>
+                            <i class="fas fa-star empty"></i>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of slider section -->
+
+    <!-- footer -->
+    <footer>
+        <div class="row border-bottom">
+            <div class="col-lg-4">
+                <h5>GET UPDATES</h5>
+                <form class="form-group shadow d-flex justify-content-between">
+                    <input required type="email" class="form-control border-top-0 border-right-0 border-left-0" id="formGroupExampleInput" placeholder="Your Email">
+                    <button type="submit" class="btn border-0"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <h5 class="download-h4 mb-2">DOWNLOAD OUR APPLICATION</h5>
+                <div class="download-app">
+                    <i class="fab fa-apple"></i>
+                    <i class="fab fa-google-play"></i>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>DEPARTMENT</h5>
+                <p><a href="">New Arrivals</a></p>
+                <p><a href="">Mens</a></p>
+                <p><a href="">Ladies</a></p>
+                <p><a href="">Kidswear</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>INFO</h5>
+                <p><a href="">Career</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="">Sustainability</a></p>
+                <p><a href="">Press</a></p>
+                <p><a href="">Investor Relation</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>GOVERNANCE</h5>
+                <p><a href="">Help</a></p>
+                <p><a href="">Customer Services</a></p>
+                <p><a href="">Store Locator</a></p>
+                <p><a href="">Legal & Privacy</a></p>
+                <p><a href="">FAQ</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h5>CONTACT US</h5>
+                <p><i class="fas fa-envelope"></i></p>
+                <p>email@company.com</p>
+                <p><i class="fas fa-phone"></i></p>
+                <p>+971 523 649 474</p>
+                <p><i class="fas fa-map-marker-alt"></i></p>
+                <p>658 Padberg Views Dubai, UAE</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <p>Copyright <strong>AVIN.com</strong> 2018</p>
+            </div>
+            <div class="col-md-4 col-12 text-right">
+                <a href="#header"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+    <script>
+        var search = document.getElementById('search');
+        var search_box = document.getElementById('search-box');
+        function changeto() {
+            search.classList.toggle('fa-times');
+            search_box.classList.toggle('visible');
+        } 
+    </script>
+</body>
+
+</html>
